@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave {
+  --mask:
+    radial-gradient(144.7px at 50% calc(100% - 198.75px),#000 99%,#0000 101%) calc(50% - 150px) 0/300px 100%,
+    radial-gradient(144.7px at 50% calc(100% + 123.75px),#0000 99%,#000 101%) 50% calc(100% - 75px)/300px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+
+/* Carousel CSS */
+.carousel-circle{
+  position: relative;
+  padding: 50px;
+}
+
+.active img{
+  position: absolute;
+  width: 400px;
+}
+.next img{
+  width: 175px;
+  position: absolute;
+  top: 350px;
+  left: 32%;
+}
+.nextt img{
+  width: 121px;
+  position: absolute;
+  top: 260px;
+  left: 44%;
+}
+.last img{
+  position: absolute;
+  top: 200px;
+  left: 38%;
+  width: 83px;
+}
