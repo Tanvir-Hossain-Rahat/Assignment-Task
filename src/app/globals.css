@@ -39,3 +39,53 @@
   left: 38%;
   width: 83px;
 }
+
+/* Carousel Resposive */
+/* 'tiny' */
+@media (min-width: 480px) and (max-width: 639px) {
+  .active img{
+    position: absolute;
+    width: 250px;
+  }
+  .next img{
+    width: 150px;
+    position: absolute;
+    top: 250px;
+    left: 270px;
+  }
+  .nextt img{
+    width: 90px;
+    position: absolute;
+    top: 180px;
+    left: 390px;
+  }
+  .last img{
+    position: absolute;
+    top: 145px;
+    left: 330px;
+    width: 60px;
+  }
+  
+}
+
+/* '3xl' */
+@media (min-width: 1920px) {
+  .next img{
+    width: 175px;
+    position: absolute;
+    top: 350px;
+    left: 420px;
+  }
+  .nextt img{
+    width: 121px;
+    position: absolute;
+    top: 260px;
+    left: 580px;
+  }
+  .last img{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 83px;
+  }
+ }

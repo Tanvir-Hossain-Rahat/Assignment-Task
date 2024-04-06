@@ -19,25 +19,25 @@ export default function Footer() {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover' 
-    }} className='pt-[100px]'>
+    }} className='pt-[200px] 3xl:pt-[100px]'>
             
-            <div className='max-w-container mx-auto px-2.5 sm:px-6 md:px-7 lg:px-10 xl:px-0'>
-                <div className="flex">
-                  <div className="w-1/2 flex gap-x-8">
+            <div className='max-w-container mx-auto px-2.5 sm:px-6 md:px-7 lg:px-10 3xl:px-0'>
+                <div className="3xl:flex">
+                  <div className="3xl:w-1/2 flex 3xl:gap-x-8">
                     <div className="w-1/3">
                       <img src="./assets/logo.png" alt="log" />
                     </div>
-                    <div className="w-2/3 text-white font-roboto text-base font-normal">
+                    <div className="w-2/3 text-white font-roboto text-base font-normal  pl-[45px] 3xl:pl-0 pb-10 3xl:pb-0">
                       <p>About</p>
-                      <p className="pt-5 pb-4 text-justify pr-[75px]">We have designed our courses with the most demanding professional skills. The knowledge, experience, From the list below you can enroll to any online or offline courses at any time</p>
+                      <p className="pt-5 pb-4 text-justify 3xl:pr-[75px]">We have designed our courses with the most demanding professional skills. The knowledge, experience, From the list below you can enroll to any online or offline courses at any time</p>
                       <div className="flex items-center text-base">
                         <a href="" className="hover:border-b-[1px] hover:text-[17px] group-hover:text-primary duration-200">More Info</a>
                         <MdOutlineArrowOutward/>
                       </div>
                     </div>
                   </div>
-                  <div className="w-1/2 flex">
-                    <div className="w-[30%] space-y-[28px] text-base text-white font-roboto font-normal">
+                  <div className="3xl:w-1/2 flex">
+                    <div className="text-center w-1/2 3xl:w-[30%] space-y-[28px] text-base text-white font-roboto font-normal">
                       <p>Discover</p>
                       <ul className='space-y-6'>
                             <li><a className='hover:text-primary' href="">Home</a></li>
@@ -47,7 +47,7 @@ export default function Footer() {
                             <li><a className='hover:text-primary' href="">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="w-[70%] font-roboto font-normal text-base text-white space-y-[28px]">
+                    <div className="w-1/2 3xl:w-[70%] font-roboto font-normal text-base text-white space-y-[28px]">
                         <h5>Contact</h5>
                       <div className="flex items-center text-base">
                         <IoCall />
