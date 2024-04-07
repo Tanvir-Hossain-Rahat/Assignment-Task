@@ -42,7 +42,7 @@
 
 /* Carousel Resposive */
 /* 'tiny' */
-@media (min-width: 480px) and (max-width: 639px) {
+@media (min-width: 375px) and (max-width: 639px) {
   .active img{
     position: absolute;
     width: 250px;
@@ -64,8 +64,75 @@
     top: 145px;
     left: 330px;
     width: 60px;
+  } 
+}
+
+/* SM */
+@media (min-width: 640px) and (max-width: 767px) {
+  .active img{
+    position: absolute;
+    width: 270px;
   }
-  
+  .next img{
+    width: 170px;
+    position: absolute;
+    top: 270px;
+    left: 270px;
+  }
+  .nextt img{
+    width: 110px;
+    position: absolute;
+    top: 180px;
+    left: 420px;
+  }
+  .last img{
+    position: absolute;
+    top: 125px;
+    left: 345px;
+    width: 80px;
+  }
+}
+
+/* MD */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .active img{
+    position: absolute;
+    width: 350px;
+  }
+  .next img{
+    width: 170px;
+    position: absolute;
+    top: 340px;
+    left: 355px;
+  }
+  .nextt img{
+    width: 110px;
+    position: absolute;
+    top: 235px;
+    left: 500px;
+  }
+  .last img{
+    position: absolute;
+    top: 180px;
+    left: 425px;
+    width: 80px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .next img{
+    top: 370px;
+    left: 39%;
+  }
+  .nextt img{
+    top: 270px;
+    left: 53%;
+  }
+  .last img{
+    top: 200px;
+    left: 46%;
+  }
 }
 
 /* '3xl' */
